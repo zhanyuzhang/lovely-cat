@@ -1,2 +1,1 @@
-# lovely-cat
-lovely cat
+You can start the project by `http-server`
