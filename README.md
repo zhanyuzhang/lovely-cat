@@ -13,6 +13,6 @@ You can import the lovely cat to your blog by  `iframe` element, as follows:
   <iframe src="https://zhanyuzhang.github.io/lovely-cat/cat.html" border="0"></iframe>
 ```
 
-enjoy yourself!
+Enjoy yourself!
 
 
