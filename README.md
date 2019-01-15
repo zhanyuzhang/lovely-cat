@@ -1,4 +1,3 @@
-## Des 
 A lovely cat which will follow your mouse to move:
 
 ![](cat.gif)
