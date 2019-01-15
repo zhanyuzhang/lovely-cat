@@ -1,6 +1,5 @@
 ## Des 
-A lovely cat which will follow your mouse to move! Just as follows: 
-
+A lovely cat which will follow your mouse to move:
 
 ![](cat.gif)
 
