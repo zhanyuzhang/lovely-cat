@@ -8,7 +8,7 @@ If you want to  run the project, you can't open the html file directly intead of
 ## Demo
 click [lover-cat](https://zhanyuzhang.github.io/lovely-cat/cat.html) and then you will sea a lovely black cat on the page!
 
-## How to use in your blog
+## How to use it in your blog ?
 You can import the lovely cat to your blog by  `iframe` element, as follows:
 ```
   <iframe src="https://zhanyuzhang.github.io/lovely-cat/cat.html" border="0"></iframe>
