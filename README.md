@@ -1,5 +1,6 @@
 ## Des 
-A lovely cat which will follow your mouse to move! Just as follows:[](cat.gif)
+A lovely cat which will follow your mouse to move! Just as follows: 
+![](cat.gif)
 
 ## Run
 If you want to  run the project, you can't open the html file directly intead of using http server , such as ` http-server `
