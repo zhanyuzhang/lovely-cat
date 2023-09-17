@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const list = [
+    {
+        "name": "课时 1 : 从传统应用开发模式到敏捷开发",
+        "url": "https://internal-edu.ctyun.cn/course/2221/task/6359/show"
+    },
+    {
+        "name": "课时 2 : 从传统应用开发模式到敏捷开发",
+        "url": "https://internal-edu.ctyun.cn/course/2221/task/6360/show"
+    },
+    {
+        "name": "课时 1 : 从传统架构到分布式服务化架构",
+        "url": "https://internal-edu.ctyun.cn/course/2220/task/6358/show"
+    },
+    {
+        "name": "课时 1 : 云计算对开发的改变",
+        "url": "https://internal-edu.ctyun.cn/course/2219/task/6357/show"
+    },
+    {
+        "name": "课时 1 : 云原生简介",
+        "url": "https://internal-edu.ctyun.cn/course/2216/task/6354/show"
+    },
+    {
+        "name": "课时 1 : 云原生应用的架构与技术原理",
+        "url": "https://internal-edu.ctyun.cn/course/2217/task/6355/show"
+    },
+    {
+        "name": "课时 1 : 云原生应用场景",
+        "url": "https://internal-edu.ctyun.cn/course/2218/task/6356/show"
+    },
+    {
+        "name": "课时 1 : 管理数据库实例",
+        "url": "https://internal-edu.ctyun.cn/course/2215/task/6353/show"
+    },
+    {
+        "name": "课时 1 : 文档数据库服务操作指南",
+        "url": "https://internal-edu.ctyun.cn/course/2214/task/6352/show"
+    },
+    {
+        "name": "课时 1 : 数据安全性",
+        "url": "https://internal-edu.ctyun.cn/course/2213/task/6351/show"
+    },
+    {
+        "name": "课时 1 : 云数据库监控",
+        "url": "https://internal-edu.ctyun.cn/course/2212/task/6350/show"
+    },
+    {
+        "name": "课时 1 : 云数据库的读写分离操作",
+        "url": "https://internal-edu.ctyun.cn/course/2211/task/6348/show"
+    },
+    {
+        "name": "课时 2 : 云数据库的读写分离操作",
+        "url": "https://internal-edu.ctyun.cn/course/2211/task/6349/show"
+    },
+    {
+        "name": "课时 1 : 分布式缓存服务Redis版",
+        "url": "https://internal-edu.ctyun.cn/course/2207/task/6344/show"
+    },
+    {
+        "name": "课时 1 : 分布式缓存服务Memcache产品概述",
+        "url": "https://internal-edu.ctyun.cn/course/2208/task/6345/show"
+    },
+    {
+        "name": "课时 1 : 分布式缓存服务Memcache操作指导",
+        "url": "https://internal-edu.ctyun.cn/course/2209/task/6346/show"
+    },
+    {
+        "name": "课时 1 : 分布式缓存服务Memcache开发指南",
+        "url": "https://internal-edu.ctyun.cn/course/2210/task/6347/show"
+    },
+    {
+        "name": "课时 1 : 云HBase数据库操作指导（一）",
+        "url": "https://internal-edu.ctyun.cn/course/2205/task/6342/show"
+    },
+    {
+        "name": "课时 1 : 云HBase数据库操作指导（二）",
+        "url": "https://internal-edu.ctyun.cn/course/2206/task/6343/show"
+    },
+    {
+        "name": "课时 1 : 分布式关系型数据库产品概述",
+        "url": "https://internal-edu.ctyun.cn/course/2203/task/6340/show"
+    },
+    {
+        "name": "课时 1 : 分布式关系型数据库操作指南",
+        "url": "https://internal-edu.ctyun.cn/course/2204/task/6341/show"
+    },
+    {
+        "name": "课时 1 : 时间序列数据库操作指导",
+        "url": "https://internal-edu.ctyun.cn/course/2201/task/6338/show"
+    },
+    {
+        "name": "课时 1 : 时间序列数据库开发指南",
+        "url": "https://internal-edu.ctyun.cn/course/2202/task/6339/show"
+    },
+    {
+        "name": "课时 1 : 云存储概述",
+        "url": "https://internal-edu.ctyun.cn/course/2200/task/6337/show"
+    },
+    {
+        "name": "课时 1 : 天翼云对象存储介绍",
+        "url": "https://internal-edu.ctyun.cn/course/2197/task/6334/show"
+    },
+    {
+        "name": "课时 1 : 天翼云对象存储HTTP REST接口概述",
+        "url": "https://internal-edu.ctyun.cn/course/2198/task/6335/show"
+    },
+    {
+        "name": "课时 1 : 天翼云对象存储SDK介绍",
+        "url": "https://internal-edu.ctyun.cn/course/2199/task/6336/show"
+    },
+    {
+        "name": "课时 1 : 天翼云对象存储OOS简介",
+        "url": "https://internal-edu.ctyun.cn/course/2196/task/6332/show"
+    },
+    {
+        "name": "课时 2 : OOS服务代码示例",
+        "url": "https://internal-edu.ctyun.cn/course/2196/task/6333/show"
+    },
+    {
+        "name": "课时 1 : 打造个人专属网盘简介",
+        "url": "https://internal-edu.ctyun.cn/course/2193/task/6329/show"
+    },
+    {
+        "name": "课时 1 : 打造个人专属网盘（二）",
+        "url": "https://internal-edu.ctyun.cn/course/2194/task/6330/show"
+    },
+    {
+        "name": "课时 1 : 打造个人专属网盘（三）",
+        "url": "https://internal-edu.ctyun.cn/course/2195/task/6331/show"
+    },
+    {
+        "name": "课时 1 : 搭建高可用网站简介",
+        "url": "https://internal-edu.ctyun.cn/course/2190/task/6325/show"
+    },
+    {
+        "name": "课时 2 : 搭建高可用网站实操",
+        "url": "https://internal-edu.ctyun.cn/course/2190/task/6326/show"
+    },
+    {
+        "name": "课时 1 : 搭建高可用网站（二）",
+        "url": "https://internal-edu.ctyun.cn/course/2191/task/6327/show"
+    },
+    {
+        "name": "课时 1 : 搭建高可用网站（三）",
+        "url": "https://internal-edu.ctyun.cn/course/2192/task/6328/show"
+    }
+].map((item, index) => ({
+    ...item,
+    name: item.name.replace(/课时\s*\d/, index + 1)
+}));
+        const htmlStr = list.map(item =>   `<a href="${item.url}" target="_blank">${item.name}</a>`).join('<br/>')
+        document.body.innerHTML = htmlStr;
+    </script>
+</body>
+</html>
